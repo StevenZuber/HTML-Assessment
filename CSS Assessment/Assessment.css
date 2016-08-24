@@ -1,0 +1,48 @@
+.subjectHeader{
+  color:green;
+  font-size: 2em;
+}
+/*Where are the different headers? The instructions say the tags aren't all the same,
+but I dind't find any different ones. */
+
+#scoreboard th{
+  font-weight: bold;
+
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+table, th, td {
+  border:1px solid black;
+
+}
+
+table caption{
+  font-weight: bold;;
+}
+
+
+#teamRoster {
+  list-style-type: square;
+  background-image:url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+  background-repeat: no-repeat;
+
+/*  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  background-repeat: no-repeat; */
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+body blockquote{
+  background-color: rgb(24, 81, 103);
+  color: hotpink;
+
+}
+#checkbox-grid{
+
+}
